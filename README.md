@@ -1,22 +1,22 @@
-# Student Record System in C
+# Student Record System
 
-## 📖 Overview
-A simple Student Record System built in C. Supports CRUD operations (Add, Display, Search, Update, Delete) with file handling for persistent storage.
+This project is a simple menu-driven Student Record System built in C.  
+I developed it to practice file handling and understand how CRUD operations work in real applications.
 
-## ⚙️ Features
+## Features
 - Add new student records
 - Display all records
 - Search by roll number
-- Update existing records
-- Delete records
-- Save and load records using `students.txt`
+- Update and delete records
+- Data stored in `students.txt`
 
-## 🛠️ Technologies
-- Language: C
-- IDE: Code::Blocks
-- Compiler: GCC
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
+## How to Run
+1. Clone the repo:
    git clone https://github.com/Pratibha2212/StudentRecordSystem.git
+2. Open `main.c` in Code::Blocks.
+3. Build and Run.
+
+## What I Learned
+- Using `struct` to organize student data
+- Handling files with `fopen`, `fprintf`, `fscanf`
+- Debugging logic errors while updating records
